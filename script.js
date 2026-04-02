@@ -587,10 +587,10 @@ scene.add(planet);
 
 //Ganti Deskripsi Planet
 const ringTexts = [
-  'BUATTTT INUNNNN',//untuk deskripsi planet layer 1
-  "SEMANGATTTT INUNNNN",//untuk deskripsi planet layer 2
-  "AHAHAHAHAHAAHA SEMOGAAA SUKAAAAA",//untuk deskripsi planet layer 3
-  "AKUU SELALUU ADA BUAT INUNNNNNN",//untuk deskripsi planet layer 4
+  'Iniii buattt Wawaaa',//untuk deskripsi planet layer 1
+  "Semangattt yaa kamuuu",//untuk deskripsi planet layer 2
+  "Semoga sukaaa yaaaaa",//untuk deskripsi planet layer 3
+  "AKUU SELALUU ADA BUAT Wawaaa",//untuk deskripsi planet layer 4
   ...(window.dataCCD && window.dataCCD.data.ringTexts ? window.dataCCD.data.ringTexts : [])
 ];
 
@@ -1067,7 +1067,7 @@ function createHintText() {
   canvas.width = canvas.height = canvasSize;
   const context = canvas.getContext('2d');
   const fontSize = 50;
-  const text = 'Happy Girlfriend Day!';
+  const text = 'Love you Wawaaa!';
   context.font = `bold ${fontSize}px Arial, sans-serif`;
   context.textAlign = 'center';
   context.textBaseline = 'middle';
